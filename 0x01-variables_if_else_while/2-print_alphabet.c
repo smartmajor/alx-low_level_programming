@@ -2,10 +2,11 @@
 
 /**
  * main - Prints the alphabet in lowercase
+ * 
  * Return : Always (Success)
  */
 
-int main(void)
+int main()
 {
 	char c;
 	

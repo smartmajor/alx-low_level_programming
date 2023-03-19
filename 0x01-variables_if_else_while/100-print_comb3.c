@@ -9,17 +9,19 @@
 
 int main(void)
 {
-	int d dd;
+	int d;
+	int p;
 
 	for (d = '0'; d < '9'; d++)
 	{
-	for (dd = d +1; d <= '9'; dd++)
+	
+	for (p = d +1; p <= '9'; p++)
 	{
-	if (d != dd)
+	if (d != p)
 	{
 	putchar(d);
-	putchar(dd);
-	if (d == '8' && dd == '9')
+	putchar(p);
+	if (d == '8' && p == '9')
 	continue;
 	putchar(',');
 	putchar(' ');

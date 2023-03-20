@@ -4,7 +4,7 @@
 
 /**
  * main - Program prints two two-digits limit99
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)

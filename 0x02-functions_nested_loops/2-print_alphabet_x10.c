@@ -5,18 +5,18 @@
  * Return: void
  */
 
+
+#include <stdio.h>
+
 void print_alphabet_x10(void)
 {
-	int b;
-	char c;
+	int i;
+	int j;
 
-	for (b = 1; b <= 10; b++)
+	for (i = 1; i <= 10; i++)
 	{
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(b);
-			_putchar('\n');
-		}
+		for (j = 'a'; j <= 'z'; j++)
+			_putchar(j);
+		_putchar('\n');
 	}
-
 }
